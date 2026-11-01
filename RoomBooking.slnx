@@ -1,0 +1,17 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+  </Configurations>
+  <Folder Name="/解决方案项/">
+    <File Path=".gitignore" />
+    <File Path="global.json" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="RoomBooking.Api/RoomBooking.Api.csproj">
+    <Platform Project="x64" />
+  </Project>
+  <Project Path="RoomBooking.Tests/RoomBooking.Tests.csproj">
+    <Platform Project="x64" />
+    <Build Solution="Release|*" Project="false" />
+  </Project>
+</Solution>
